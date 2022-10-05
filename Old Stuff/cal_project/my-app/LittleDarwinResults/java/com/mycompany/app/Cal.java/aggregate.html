@@ -1,0 +1,76 @@
+<!DOCTYPE html><head><title>LittleDarwin Aggregate Mutation Report</title> <style type='text/css'> body { font-family: "Carlito", "Calibri", "Helvetica Neue", sans-serif;}
+                    .code { font-family: monospace; font-size: medium; }
+                    .methodLine { background: white; }
+                    .outsideLine { background: lightgray; } 
+                    .tooltip { position: relative; display: inline-block; }
+                    .tooltip .tooltiptext { visibility: hidden; display: block;
+                        background-color: #006400; color: #ffffff; text-align: left;
+                        border-radius: 0.3em; padding: 0.5em 0.5em; position: absolute; top: 125%; z-index: 200;}
+                    .tooltip:hover .tooltiptext { visibility: visible; } .ShiftOperatorReplacement { background: #9ACD32; } .NullifyReturnValue { background: #E0FFFF; } .NullifyInputVariable { background: #90EE90; } .GenericTraditionalMutationOperator { background: #FFFFF0; } .ArithmeticOperatorReplacementBinary { background: #FFB6C1; } .RelationalOperatorReplacement { background: #FFA07A; } .RemoveNullCheck { background: #ADD8E6; } .NullifyObjectInitialization { background: #F08080; } .ConditionalOperatorDeletion { background: #FFD700; } .ConditionalOperatorReplacement { background: #87CEFA; } .ArithmeticOperatorReplacementShortcut { background: #FF00FF; } .ArithmeticOperatorReplacementUnary { background: #DDA0DD; } .LogicalOperatorReplacement { background: #F0E68C; } .AssignmentOperatorReplacementShortcut { background: #B0C4DE; } .RemoveMethod { background: #FF00D4; } </style></head><body><h1>LittleDarwin Aggregate Mutation Report</h1><p>Average Density: 0.95</p><div><pre class="code"><span class="outsideLine"><i>0001</i> package com.mycompany.app;                                                 
+</span><span class="outsideLine"><i>0002</i> import java.io.*;                                                          
+</span><span class="outsideLine"><i>0003</i> public class Cal                                                           
+</span><span class="outsideLine"><i>0004</i> {                                                                          
+</span><span class="outsideLine"><i>0005</i>    public static int cal (int month1, int day1, int month2,                
+</span><span class="outsideLine"><i>0006</i>                           int day2, int year)                              
+</span><span class="methodLine"><i>0007</i>    <span class="RemoveMethod tooltip"><span class="tooltiptext">Mutated Text: {
+    return 1;
+}
+ 
+Mutation Operator Type: RemoveMethod 
+Node ID: 42</span>{                                                                       
+</span><span class="methodLine"><i>0008</i>       int numDays;                                                         
+</span><span class="methodLine"><i>0009</i>       if (month2 <span class="RelationalOperatorReplacement tooltip"><span class="tooltiptext">Mutated Text: != 
+Mutation Operator Type: RelationalOperatorReplacement 
+Node ID: 104</span>==</span> month1) // in the same month                           
+</span><span class="methodLine"><i>0010</i>          numDays  = day2 <span class="ArithmeticOperatorReplacementBinary tooltip"><span class="tooltiptext">Mutated Text: + 
+Mutation Operator Type: ArithmeticOperatorReplacementBinary 
+Node ID: 134</span>-</span> day1;                                           
+</span><span class="methodLine"><i>0011</i>       else                                                                 
+</span><span class="methodLine"><i>0012</i>       {                                                                    
+</span><span class="methodLine"><i>0013</i>          int daysIn[] = {0, 31, 0, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+</span><span class="methodLine"><i>0014</i>          int m4 = year <span class="ArithmeticOperatorReplacementBinary tooltip"><span class="tooltiptext">Mutated Text: / 
+Mutation Operator Type: ArithmeticOperatorReplacementBinary 
+Node ID: 264</span>%</span> 4;                                                
+</span><span class="methodLine"><i>0015</i>          int m100 = year <span class="ArithmeticOperatorReplacementBinary tooltip"><span class="tooltiptext">Mutated Text: / 
+Mutation Operator Type: ArithmeticOperatorReplacementBinary 
+Node ID: 266</span>%</span> 100;                                            
+</span><span class="methodLine"><i>0016</i>          int m400 = year <span class="ArithmeticOperatorReplacementBinary tooltip"><span class="tooltiptext">Mutated Text: / 
+Mutation Operator Type: ArithmeticOperatorReplacementBinary 
+Node ID: 268</span>%</span> 400;                                            
+</span><span class="methodLine"><i>0017</i>          if ((m4 <span class="RelationalOperatorReplacement tooltip"><span class="tooltiptext">Mutated Text: == 
+Mutation Operator Type: RelationalOperatorReplacement 
+Node ID: 270</span>!=</span> 0) <span class="ConditionalOperatorReplacement tooltip"><span class="tooltiptext">Mutated Text: && 
+Mutation Operator Type: ConditionalOperatorReplacement 
+Node ID: 183</span>||</span> ((m100 <span class="RelationalOperatorReplacement tooltip"><span class="tooltiptext">Mutated Text: != 
+Mutation Operator Type: RelationalOperatorReplacement 
+Node ID: 425</span>==</span> 0) <span class="ConditionalOperatorReplacement tooltip"><span class="tooltiptext">Mutated Text: || 
+Mutation Operator Type: ConditionalOperatorReplacement 
+Node ID: 273</span>&&</span> (m400 <span class="RelationalOperatorReplacement tooltip"><span class="tooltiptext">Mutated Text: == 
+Mutation Operator Type: RelationalOperatorReplacement 
+Node ID: 428</span>!=</span> 0)))                    
+</span><span class="methodLine"><i>0018</i>             daysIn[2] = 28;                                                
+</span><span class="methodLine"><i>0019</i>          else                                                              
+</span><span class="methodLine"><i>0020</i>             daysIn[2] = 29;                                                
+</span><span class="methodLine"><i>0021</i>          numDays = day2 <span class="ArithmeticOperatorReplacementBinary tooltip"><span class="tooltiptext">Mutated Text: - 
+Mutation Operator Type: ArithmeticOperatorReplacementBinary 
+Node ID: 214</span>+</span> (daysIn[month1] <span class="ArithmeticOperatorReplacementBinary tooltip"><span class="tooltiptext">Mutated Text: + 
+Mutation Operator Type: ArithmeticOperatorReplacementBinary 
+Node ID: 349</span>-</span> day1);                         
+</span><span class="methodLine"><i>0022</i>          for (int i = month1 <span class="ArithmeticOperatorReplacementBinary tooltip"><span class="tooltiptext">Mutated Text: - 
+Mutation Operator Type: ArithmeticOperatorReplacementBinary 
+Node ID: 397</span>+</span> 1; i <span class="RelationalOperatorReplacement tooltip"><span class="tooltiptext">Mutated Text: > 
+Mutation Operator Type: RelationalOperatorReplacement 
+Node ID: 192</span><=</span> month2<span class="ArithmeticOperatorReplacementBinary tooltip"><span class="tooltiptext">Mutated Text: + 
+Mutation Operator Type: ArithmeticOperatorReplacementBinary 
+Node ID: 218</span>-</span>1; i<span class="ArithmeticOperatorReplacementShortcut tooltip"><span class="tooltiptext">Mutated Text: -- 
+Mutation Operator Type: ArithmeticOperatorReplacementShortcut 
+Node ID: 255</span>++</span>)                      
+</span><span class="methodLine"><i>0023</i>             numDays = daysIn[i] <span class="ArithmeticOperatorReplacementBinary tooltip"><span class="tooltiptext">Mutated Text: - 
+Mutation Operator Type: ArithmeticOperatorReplacementBinary 
+Node ID: 258</span>+</span> numDays;                                 
+</span><span class="methodLine"><i>0024</i>       }                                                                    
+</span><span class="methodLine"><i>0025</i>       return (numDays);                                                    
+</span><span class="methodLine"><i>0026</i>    }</span>                                                                       
+</span><span class="outsideLine"><i>0027</i>                                                                            
+</span><span class="outsideLine"><i>0028</i>    }                                                                       
+</span><span class="outsideLine"><i>0029</i>                                                                            </pre></div><footer><p style="font-size: small">Report generated by LittleDarwin 0.10.6 </p></footer></body></html>

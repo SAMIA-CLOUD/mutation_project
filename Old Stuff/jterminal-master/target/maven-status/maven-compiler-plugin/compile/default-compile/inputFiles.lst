@@ -1,0 +1,15 @@
+C:\Mutation Testing\jterminal-master\src\main\java\com\grahamedgecombe\jterminal\TerminalModel.java
+C:\Mutation Testing\jterminal-master\src\main\java\com\grahamedgecombe\jterminal\vt100\package-info.java
+C:\Mutation Testing\jterminal-master\src\main\java\com\grahamedgecombe\jterminal\bell\package-info.java
+C:\Mutation Testing\jterminal-master\src\main\java\com\grahamedgecombe\jterminal\JTerminal.java
+C:\Mutation Testing\jterminal-master\src\main\java\com\grahamedgecombe\jterminal\vt100\AnsiControlSequence.java
+C:\Mutation Testing\jterminal-master\src\main\java\com\grahamedgecombe\jterminal\AbstractTerminalModel.java
+C:\Mutation Testing\jterminal-master\src\main\java\com\grahamedgecombe\jterminal\vt100\Vt100TerminalModel.java
+C:\Mutation Testing\jterminal-master\src\main\java\com\grahamedgecombe\jterminal\bell\NopBellStrategy.java
+C:\Mutation Testing\jterminal-master\src\main\java\com\grahamedgecombe\jterminal\package-info.java
+C:\Mutation Testing\jterminal-master\src\main\java\com\grahamedgecombe\jterminal\vt100\AnsiControlSequenceListener.java
+C:\Mutation Testing\jterminal-master\src\main\java\com\grahamedgecombe\jterminal\bell\BeepBellStrategy.java
+C:\Mutation Testing\jterminal-master\src\main\java\com\grahamedgecombe\jterminal\vt100\AnsiControlSequenceParser.java
+C:\Mutation Testing\jterminal-master\src\main\java\com\grahamedgecombe\jterminal\bell\BellStrategy.java
+C:\Mutation Testing\jterminal-master\src\main\java\com\grahamedgecombe\jterminal\vt100\SgrColor.java
+C:\Mutation Testing\jterminal-master\src\main\java\com\grahamedgecombe\jterminal\TerminalCell.java

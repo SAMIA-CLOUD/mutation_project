@@ -1,0 +1,34 @@
+experiment='2'
+filename='MinimalTestSuite_Delta'+experiment+".txt"
+
+def loadTestSuites():
+	union=set()
+	test_counter={}
+	file=open(filename);
+	lines=file.readlines();
+	total=0
+	for i in range(1,len(lines)):
+		if len(lines[i])<2:
+			continue;
+		tests=lines[i].strip().split(":")[1].split(",");
+		total+=1
+		for t in tests:
+			union.add(t);
+			if t not in test_counter:
+				test_counter[t]=0
+			test_counter[t]+=1
+	intersection=[]
+	for test in test_counter:
+		if test_counter[test]==total:
+			intersection.append(test)
+	return list(union),intersection
+
+union,inter=loadTestSuites();
+writer = open("SummaryTestSuite_Delta_"+experiment+".txt",'w')
+writer.write("Test Suite by Delta"+experiment+":\n")
+writer.write("Union Set ("+str(len(union))+" tests): "+",".join(union)+"\n")
+writer.write("Intersection Set ("+str(len(inter))+" tests): "+",".join(inter)+"\n")
+
+
+writer.close();
+

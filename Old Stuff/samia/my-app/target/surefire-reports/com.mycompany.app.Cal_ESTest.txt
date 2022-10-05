@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.app.Cal_ESTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 0.536 s <<< FAILURE! - in com.mycompany.app.Cal_ESTest
+test6(com.mycompany.app.Cal_ESTest)  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.ArrayIndexOutOfBoundsException: 13
+	at com.mycompany.app.Cal_ESTest.test6(Cal_ESTest.java:93)
+
+test3(com.mycompany.app.Cal_ESTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.ArrayIndexOutOfBoundsException: 13
+	at com.mycompany.app.Cal_ESTest.test3(Cal_ESTest.java:57)
+
+test5(com.mycompany.app.Cal_ESTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: Expecting exception: ArrayIndexOutOfBoundsException
+	at com.mycompany.app.Cal_ESTest.test5(Cal_ESTest.java:81)
+

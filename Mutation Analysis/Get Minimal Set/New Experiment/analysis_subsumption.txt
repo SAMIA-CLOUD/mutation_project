@@ -1,0 +1,112 @@
+minimal set by subsumption:
+m1, m19, m23, m24, m25, m27, m44, m45, m48, m51, m60
+
+
+Indistinguishable Classes:
+Class 1: m1, 
+Class 2: m2, m15
+Class 3: m3, 
+Class 4: m7, 
+Class 5: m11, 
+Class 6: m13, 
+Class 7: m19, 
+Class 8: m21, 
+Class 9: m22, 
+Class 10: m23, 
+Class 11: m24, 
+Class 12: m25, 
+Class 13: m27, m28
+Class 14: m44, m92
+Class 15: m45, m93
+Class 16: m46, 
+Class 17: m48, 
+Class 18: m49, 
+Class 19: m50, 
+Class 20: m51, 
+Class 21: m52, 
+Class 22: m53, m55
+Class 23: m56, 
+Class 24: m57, 
+Class 25: m60, 
+Class 26: m63, 
+
+
+
+Subsumption:
+m1 --> m2
+m7 --> m2
+m11 --> m2
+m13 --> m2
+m19 --> m2
+m19 --> m7
+m19 --> m21
+m19 --> m22
+m19 --> m56
+m19 --> m57
+m19 --> m63
+m21 --> m2
+m22 --> m2
+m22 --> m7
+m23 --> m2
+m23 --> m7
+m23 --> m22
+m23 --> m56
+m24 --> m2
+m24 --> m7
+m24 --> m21
+m24 --> m22
+m24 --> m56
+m24 --> m63
+m25 --> m2
+m25 --> m11
+m25 --> m13
+m27 --> m2
+m27 --> m7
+m27 --> m21
+m27 --> m22
+m44 --> m2
+m44 --> m11
+m44 --> m13
+m44 --> m46
+m45 --> m2
+m45 --> m11
+m45 --> m13
+m45 --> m46
+m46 --> m2
+m46 --> m11
+m46 --> m13
+m48 --> m2
+m48 --> m11
+m48 --> m13
+m48 --> m49
+m48 --> m50
+m49 --> m2
+m49 --> m11
+m49 --> m13
+m49 --> m50
+m50 --> m2
+m50 --> m11
+m50 --> m13
+m51 --> m2
+m51 --> m11
+m51 --> m52
+m51 --> m53
+m52 --> m2
+m52 --> m11
+m52 --> m53
+m53 --> m2
+m56 --> m2
+m57 --> m2
+m57 --> m7
+m57 --> m21
+m57 --> m22
+m57 --> m56
+m57 --> m63
+m60 --> m2
+m60 --> m7
+m60 --> m21
+m60 --> m56
+m63 --> m2
+m63 --> m7
+m63 --> m21
+m63 --> m22

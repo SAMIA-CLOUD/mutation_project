@@ -1,0 +1,19 @@
+Killed Mutants by Minimal Test Suites by Delta1:
+
+Killed Mutants using set 1(killed mutants=20):
+m22,m23,m27,m28,m44,m45,m46,m48,m49,m50,m51,m52,m53,m54,m55,m56,m61,m83,m92,m93
+
+Killed Mutants using set 2(killed mutants=20):
+m22,m23,m27,m28,m44,m45,m46,m48,m49,m50,m51,m52,m53,m54,m55,m56,m61,m83,m92,m93
+
+Killed Mutants using set 3(killed mutants=20):
+m22,m23,m27,m28,m44,m45,m46,m48,m49,m50,m51,m52,m53,m54,m55,m56,m61,m83,m92,m93
+
+Killed Mutants using set 4(killed mutants=20):
+m22,m23,m27,m28,m44,m45,m46,m48,m49,m50,m51,m52,m53,m54,m55,m56,m61,m83,m92,m93
+
+Killed Mutants using set 5(killed mutants=20):
+m22,m23,m27,m28,m44,m45,m46,m48,m49,m50,m51,m52,m53,m54,m55,m56,m61,m83,m92,m93
+
+Killed Mutants using set 6(killed mutants=20):
+m22,m23,m27,m28,m44,m45,m46,m48,m49,m50,m51,m52,m53,m54,m55,m56,m61,m83,m92,m93

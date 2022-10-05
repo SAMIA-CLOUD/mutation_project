@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project>
+    <totalNumberOfTestableClasses>1</totalNumberOfTestableClasses>
+    <cut>
+        <fullNameOfTargetClass>com.mycompany.app.Cal</fullNameOfTargetClass>
+        <fullNameOfTestSuite>com.mycompany.app.Cal_ESTest</fullNameOfTestSuite>
+        <generation>
+            <id>0</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>120</timeBudgetInSeconds>
+            <memoryInMB>800</memoryInMB>
+            <std_err_CLIENT>C:\Mutation Testing\samia\my-app\.evosuite\tmp_2021_12_02_15_15_09\logs\com.mycompany.app.Cal\std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>C:\Mutation Testing\samia\my-app\.evosuite\tmp_2021_12_02_15_15_09\logs\com.mycompany.app.Cal\std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>C:\Mutation Testing\samia\my-app\.evosuite\tmp_2021_12_02_15_15_09\logs\com.mycompany.app.Cal\std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>C:\Mutation Testing\samia\my-app\.evosuite\tmp_2021_12_02_15_15_09\logs\com.mycompany.app.Cal\std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>C:\Mutation Testing\samia\my-app\.evosuite\tmp_2021_12_02_15_15_09\tests\com\mycompany\app\Cal_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>10</numberOfTests>
+                <totalNumberOfStatements>10</totalNumberOfStatements>
+                <totalEffortInSeconds>9</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11111111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11111111111</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
+    </cut>
+</Project>

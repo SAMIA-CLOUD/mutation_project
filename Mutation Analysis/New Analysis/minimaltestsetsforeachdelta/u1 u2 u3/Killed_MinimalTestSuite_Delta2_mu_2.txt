@@ -1,0 +1,49 @@
+Killed Mutants by Minimal Test Suites by Delta2 and for mu2:
+
+Killed Mutants using set 1(killed mutants=46):
+m1,m2,m7,m8,m9,m10,m11,m12,m13,m14,m15,m16,m17,m18,m19,m21,m22,m24,m25,m26,m27,m28,m44,m45,m46,m48,m49,m50,m51,m52,m53,m54,m55,m56,m57,m58,m59,m60,m62,m63,m83,m88,m89,m90,m92,m93
+
+Killed Mutants using set 2(killed mutants=46):
+m1,m2,m7,m8,m9,m10,m11,m12,m13,m14,m15,m16,m17,m18,m19,m21,m22,m24,m25,m26,m27,m28,m44,m45,m46,m48,m49,m50,m51,m52,m53,m54,m55,m56,m57,m58,m59,m60,m62,m63,m83,m88,m89,m90,m92,m93
+
+Killed Mutants using set 3(killed mutants=46):
+m1,m2,m7,m8,m9,m10,m11,m12,m13,m14,m15,m16,m17,m18,m19,m21,m22,m24,m25,m26,m27,m28,m44,m45,m46,m48,m49,m50,m51,m52,m53,m54,m55,m56,m57,m58,m59,m60,m62,m63,m83,m88,m89,m90,m92,m93
+
+Killed Mutants using set 4(killed mutants=46):
+m1,m2,m7,m8,m9,m10,m11,m12,m13,m14,m15,m16,m17,m18,m19,m21,m22,m24,m25,m26,m27,m28,m44,m45,m46,m48,m49,m50,m51,m52,m53,m54,m55,m56,m57,m58,m59,m60,m62,m63,m83,m88,m89,m90,m92,m93
+
+Killed Mutants using set 5(killed mutants=46):
+m1,m2,m7,m8,m9,m10,m11,m12,m13,m14,m15,m16,m17,m18,m19,m21,m22,m24,m25,m26,m27,m28,m44,m45,m46,m48,m49,m50,m51,m52,m53,m54,m55,m56,m57,m58,m59,m60,m62,m63,m83,m88,m89,m90,m92,m93
+
+Killed Mutants using set 6(killed mutants=46):
+m1,m2,m7,m8,m9,m10,m11,m12,m13,m14,m15,m16,m17,m18,m19,m21,m22,m24,m25,m26,m27,m28,m44,m45,m46,m48,m49,m50,m51,m52,m53,m54,m55,m56,m57,m58,m59,m60,m62,m63,m83,m88,m89,m90,m92,m93
+
+Killed Mutants using set 7(killed mutants=46):
+m1,m2,m7,m8,m9,m10,m11,m12,m13,m14,m15,m16,m17,m18,m19,m21,m22,m24,m25,m26,m27,m28,m44,m45,m46,m48,m49,m50,m51,m52,m53,m54,m55,m56,m57,m58,m59,m60,m62,m63,m83,m88,m89,m90,m92,m93
+
+Killed Mutants using set 8(killed mutants=46):
+m1,m2,m7,m8,m9,m10,m11,m12,m13,m14,m15,m16,m17,m18,m19,m21,m22,m24,m25,m26,m27,m28,m44,m45,m46,m48,m49,m50,m51,m52,m53,m54,m55,m56,m57,m58,m59,m60,m62,m63,m83,m88,m89,m90,m92,m93
+
+Killed Mutants using set 9(killed mutants=46):
+m1,m2,m7,m8,m9,m10,m11,m12,m13,m14,m15,m16,m17,m18,m19,m21,m22,m24,m25,m26,m27,m28,m44,m45,m46,m48,m49,m50,m51,m52,m53,m54,m55,m56,m57,m58,m59,m60,m62,m63,m83,m88,m89,m90,m92,m93
+
+Killed Mutants using set 10(killed mutants=46):
+m1,m2,m7,m8,m9,m10,m11,m12,m13,m14,m15,m16,m17,m18,m19,m21,m22,m24,m25,m26,m27,m28,m44,m45,m46,m48,m49,m50,m51,m52,m53,m54,m55,m56,m57,m58,m59,m60,m62,m63,m83,m88,m89,m90,m92,m93
+
+Killed Mutants using set 11(killed mutants=46):
+m1,m2,m7,m8,m9,m10,m11,m12,m13,m14,m15,m16,m17,m18,m19,m21,m22,m24,m25,m26,m27,m28,m44,m45,m46,m48,m49,m50,m51,m52,m53,m54,m55,m56,m57,m58,m59,m60,m62,m63,m83,m88,m89,m90,m92,m93
+
+Killed Mutants using set 12(killed mutants=46):
+m1,m2,m7,m8,m9,m10,m11,m12,m13,m14,m15,m16,m17,m18,m19,m21,m22,m24,m25,m26,m27,m28,m44,m45,m46,m48,m49,m50,m51,m52,m53,m54,m55,m56,m57,m58,m59,m60,m62,m63,m83,m88,m89,m90,m92,m93
+
+Killed Mutants using set 13(killed mutants=46):
+m1,m2,m7,m8,m9,m10,m11,m12,m13,m14,m15,m16,m17,m18,m19,m21,m22,m24,m25,m26,m27,m28,m44,m45,m46,m48,m49,m50,m51,m52,m53,m54,m55,m56,m57,m58,m59,m60,m62,m63,m83,m88,m89,m90,m92,m93
+
+Killed Mutants using set 14(killed mutants=46):
+m1,m2,m7,m8,m9,m10,m11,m12,m13,m14,m15,m16,m17,m18,m19,m21,m22,m24,m25,m26,m27,m28,m44,m45,m46,m48,m49,m50,m51,m52,m53,m54,m55,m56,m57,m58,m59,m60,m62,m63,m83,m88,m89,m90,m92,m93
+
+Killed Mutants using set 15(killed mutants=46):
+m1,m2,m7,m8,m9,m10,m11,m12,m13,m14,m15,m16,m17,m18,m19,m21,m22,m24,m25,m26,m27,m28,m44,m45,m46,m48,m49,m50,m51,m52,m53,m54,m55,m56,m57,m58,m59,m60,m62,m63,m83,m88,m89,m90,m92,m93
+
+Killed Mutants using set 16(killed mutants=46):
+m1,m2,m7,m8,m9,m10,m11,m12,m13,m14,m15,m16,m17,m18,m19,m21,m22,m24,m25,m26,m27,m28,m44,m45,m46,m48,m49,m50,m51,m52,m53,m54,m55,m56,m57,m58,m59,m60,m62,m63,m83,m88,m89,m90,m92,m93

@@ -1,0 +1,112 @@
+Measure between base pcM25 and pcM25 
+Cardinality of union: 262
+Cardinality of intersection: 262
+Similarity Measure: 1.0
+
+
+
+Measure between base pcM25 and pcM50 
+Cardinality of union: 356
+Cardinality of intersection: 235
+Similarity Measure: 0.6601123595505618
+
+
+
+Measure between base pcM25 and tcM25 
+Cardinality of union: 262
+Cardinality of intersection: 262
+Similarity Measure: 1.0
+
+
+
+Measure between base pcM25 and tcM50 
+Cardinality of union: 319
+Cardinality of intersection: 147
+Similarity Measure: 0.4608150470219436
+
+
+
+Measure between base pcM50 and pcM25 
+Cardinality of union: 356
+Cardinality of intersection: 235
+Similarity Measure: 0.6601123595505618
+
+
+
+Measure between base pcM50 and pcM50 
+Cardinality of union: 329
+Cardinality of intersection: 329
+Similarity Measure: 1.0
+
+
+
+Measure between base pcM50 and tcM25 
+Cardinality of union: 356
+Cardinality of intersection: 235
+Similarity Measure: 0.6601123595505618
+
+
+
+Measure between base pcM50 and tcM50 
+Cardinality of union: 329
+Cardinality of intersection: 204
+Similarity Measure: 0.6200607902735562
+
+
+
+Measure between base tcM25 and pcM25 
+Cardinality of union: 262
+Cardinality of intersection: 262
+Similarity Measure: 1.0
+
+
+
+Measure between base tcM25 and pcM50 
+Cardinality of union: 356
+Cardinality of intersection: 235
+Similarity Measure: 0.6601123595505618
+
+
+
+Measure between base tcM25 and tcM25 
+Cardinality of union: 262
+Cardinality of intersection: 262
+Similarity Measure: 1.0
+
+
+
+Measure between base tcM25 and tcM50 
+Cardinality of union: 319
+Cardinality of intersection: 147
+Similarity Measure: 0.4608150470219436
+
+
+
+Measure between base tcM50 and pcM25 
+Cardinality of union: 319
+Cardinality of intersection: 147
+Similarity Measure: 0.4608150470219436
+
+
+
+Measure between base tcM50 and pcM50 
+Cardinality of union: 329
+Cardinality of intersection: 204
+Similarity Measure: 0.6200607902735562
+
+
+
+Measure between base tcM50 and tcM25 
+Cardinality of union: 319
+Cardinality of intersection: 147
+Similarity Measure: 0.4608150470219436
+
+
+
+Measure between base tcM50 and tcM50 
+Cardinality of union: 204
+Cardinality of intersection: 204
+Similarity Measure: 1.0
+
+
+

@@ -1,0 +1,14 @@
+Measure between base (ordered based on killed mutants) and file1 
+Cardinality of union: 2
+Cardinality of intersection: 2
+Similarity Measure: 1.0
+
+
+
+Measure between base (ordered based on killed mutants) and file2 
+Cardinality of union: 3
+Cardinality of intersection: 1
+Similarity Measure: 0.3333333333333333
+
+
+

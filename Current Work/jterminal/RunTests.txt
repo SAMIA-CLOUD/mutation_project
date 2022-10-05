@@ -1,0 +1,48 @@
+
+Psudo-Code.
+
+def RunTests(M1,M2):
+	equivalent=True;
+	for every t:
+		Output_1=M1(t)
+		Output_2=M2(t)
+		if Output_1!=Output_2:
+			equivalent=False;
+			break;
+	retrun euivalent
+
+
+Mutants=set of mutants [m1, .... , m94]
+minimal_set=[];
+NOI=0;
+for ma in Mutants:
+	include_ma=True;
+	for mb in minimal_set:
+		is_equivalent=RunTests(ma,mb)
+		NOI++;
+		if is_equivalent==True:
+			include_ma=False;
+			break;
+	if include_ma==True:
+		minimal_set=minimal_set + ma;
+	if size(minimal_set)==21 || NOI ==76:
+			break;
+
+The problem in J Terminal is that the tests are not just different inputs but its a sequence of steps to do (methods to call / behavior) for the V100TerminalModel class. Cal() for example, tests are just different inputs (parameter to the Cal() function/method). However CAL() only have 19 mutants from LittleDarwin, however we can use mujava to generate 173 mutantssimilar the Kurtz paper and then we can generate tests using the pairwise algorithm and run the tests on every mutants and do our analysis. Because Cal() is simple, we can jusr run the tests on the mutants ourselves and save the outputs and then do the analaysis (quivalence, subsumption, etc)
+
+Example:
+Cal(int day_1, int month_1, int day_2, int month_2, int year)
+Assume I have Cal_M1 and Cal_M2 which are two mutants for Cal().
+My tests are:
+	t1: day_1=20, month_1=1, day_2=25, month_2=3, year=2020
+	t2: day_1=10, month_1=10, day_2=2, month_2=11, year=2010
+
+output_m1=Cal_M1(t1)
+output_m2=Cal_M2(t1)
+I compare output_m1 and output_m2 and then do the same for t2.
+
+
+
+			
+
+		

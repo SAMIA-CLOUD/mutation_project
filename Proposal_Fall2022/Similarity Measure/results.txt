@@ -1,0 +1,28 @@
+rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrMeasure between base (ordered based on killed mutants) and pcM25 
+Cardinality of union: 277
+Cardinality of intersection: 98
+Similarity Measure: 0.35379061371841153
+
+
+
+Measure between base (ordered based on killed mutants) and pcM50 
+Cardinality of union: 329
+Cardinality of intersection: 113
+Similarity Measure: 0.3434650455927052
+
+
+
+Measure between base (ordered based on killed mutants) and tcM25 
+Cardinality of union: 277
+Cardinality of intersection: 98
+Similarity Measure: 0.35379061371841153
+
+
+
+Measure between base (ordered based on killed mutants) and tcM50 
+Cardinality of union: 210
+Cardinality of intersection: 107
+Similarity Measure: 0.5095238095238095
+
+
+

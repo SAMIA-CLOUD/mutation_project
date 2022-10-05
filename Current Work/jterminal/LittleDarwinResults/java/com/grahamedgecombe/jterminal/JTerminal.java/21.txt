@@ -1,0 +1,56 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.grahamedgecombe.jterminal:jterminal:jar:1.0.2-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 64, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------< com.grahamedgecombe.jterminal:jterminal >---------------
+[INFO] Building JTerminal 1.0.2-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ jterminal ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jterminal ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Mutation Testing\Current Work\jterminal\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jterminal ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 15 source files to C:\Mutation Testing\Current Work\jterminal\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jterminal ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Mutation Testing\Current Work\jterminal\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ jterminal ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- evosuite-maven-plugin:1.0.6:prepare (default) @ jterminal ---
+[INFO] Preparing EvoSuite tests for execution
+[INFO] Analyzing test folder: C:\Mutation Testing\Current Work\jterminal\target\test-classes
+[INFO] Found 0 EvoSuite scaffolding files
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jterminal ---
+[INFO] Surefire report directory: C:\Mutation Testing\Current Work\jterminal\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.grahamedgecombe.jterminal.vt100.TestVt100TerminalModel
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.128 sec
+
+Results :
+
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.532 s
+[INFO] Finished at: 2021-12-19T10:18:29-05:00
+[INFO] ------------------------------------------------------------------------
+

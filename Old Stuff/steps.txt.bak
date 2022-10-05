@@ -1,0 +1,44 @@
+Maven quickstart: https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+
+Create a Maven project:
+
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+
+Pom.xml: it contains all the environment requirements and dependencies for the project.
+We go to evosuite website and add the required dependencies to pom.xml
+
+Now we want to generate evosuits test data:
+mvn compile evosuite:generate
+This will generate test functions inside .evosuites/best-tests
+we copy the test file and scaffolding to the test directory in the project.
+
+Evosuite Testing: 
+We don't specify parameters. Evosuite will generate tests based on our classes, and these are optimized to acheive best coverage
+
+Generate Mutants:
+We use littleDarwin. the following command:
+python -m littledarwin -m -b -t ./ -p ./src/main
+
+-m is to generate mutants
+-b is run the tests in the test folder on the mutants.
+
+But we make sure to backup our original code (base program) becuase a bug in littledarwin chaning the base program
+
+So littleDarwin will use multiple operators to generate mutants with optimized coverage. They will display to us how many mutants are generated from each operator.
+By default, it is class level operators. we can specify mthod level. we can specify if we want method-level mutations. We can specify --all to use all available operators
+
+Results of littleDarwin are in LittleDarwinResults folder, in java->com->mycompany->app
+Each mutant is in a file. We don't care about the current reports, we will be able to generate subsumption graph and csv report when we use the new function that dr parsai sent us to do that.
+
+
+To generate the subsumption graph:
+We use the python script called FindSubsumingRelationAlone.py
+How to run it:
+After I finish the run on littleDarwin, I run the script as below
+python FindSubsumingRelationAlone.py name_of_the_project ./LittleDarwinResults
+
+The script will produce a csv report and .dot file which have the code for the graph for the GraphVis software.
+To constrcut an image of the graph do the following:
+dot -Tbmp name_of_the_dot_file.dot -o graph.bmp
+
+
